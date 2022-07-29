@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+// Fonts
+$font-family: 'VT323', monospace;
+
+$font-size-default: 1rem;
+$font-size-header-0: 4rem;
+$font-size-header-1: 2.5rem;
+$font-size-header-2: 2rem;
+$font-size-header-3: 1.5rem;
+$font-size-header-4: 0.75rem;
+$font-size-header-5: 0.5rem;
+
+$font-bold: 700;
+
+// Colors
+ $color-background: #EDECE8;
+ $color-black: #000;
+ $color-white: #FFF;
+
+ $color-grey-light: #D9D9D9;
+ $color-grey-dark: #606060;
+ $color-blue-light: #0057E9;
+ $color-blue-dark: #093278;
+ $color-red-light: #E11845;
+ $color-red-dark: #830421;
+ $color-pink: #FF00BD;
+ $color-yellow-light: #F2CA19;
+ $color-yellow-dark: #C1A217;
+ $color-green-light: #87E911; 
+ $color-green-dark: #57970B;
+ $color-purple: #8931EF;
+
+ // other utilities
+ $padding: 1rem;
+ $spacer: 0.5rem;
+ $border: 1px solid $color-black;
+ $border-radius: 5px;
