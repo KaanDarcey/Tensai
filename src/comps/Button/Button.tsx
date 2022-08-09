@@ -28,7 +28,12 @@ const Button = ({
   };
 
   return (
-    <sc.Button type={isSubmit ? "submit" : "button"} onClick={onClick} {...styleProps} {...moreProps}>
+    <sc.Button
+      type={isSubmit ? "submit" : "button"}
+      onClick={onClick}
+      {...styleProps}
+      {...moreProps}
+    >
       {label}
       {children}
     </sc.Button>
@@ -41,7 +46,7 @@ const defaultProps = {
   kind: "primary",
   isRound: false,
   isSubmit: false,
-  onClick: () => {}
+  onClick: () => {},
 };
 
 Button.displayName = "Button";

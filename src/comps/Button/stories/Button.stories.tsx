@@ -35,7 +35,9 @@ export const AllKinds: ComponentStory<typeof Button> = () => {
       <Button style={{marginRight: "1rem"}} kind="close" data-cy="close-button">
         Close
       </Button>
-      <Button kind="link" data-cy="link-button">Link</Button>
+      <Button kind="link" data-cy="link-button">
+        Link
+      </Button>
     </div>
   );
 };
