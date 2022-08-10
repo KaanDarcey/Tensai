@@ -1,8 +1,7 @@
 describe("Button", () => {
   beforeEach(() => {
     cy.visit(
-      "http://localhost:6006/iframe.html?args=&id=button--all-kinds&viewMode=story",
-      {timeout: 30000}
+      "http://localhost:6006/iframe.html?args=&id=button--all-kinds&viewMode=story"
     );
   });
   it("it should render the buttons", () => {
