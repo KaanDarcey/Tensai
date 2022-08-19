@@ -8,11 +8,8 @@ const makeSut = (props: Partial<ButtonProps>) => {
 
 describe("<Button />", () => {
   test("Should render label correctly", () => {
-    // const {getByText} = makeSut({label: "My Button"});
     render(makeSut({label: "My Button"}));
     screen.getByText(/My Button/);
-    // expect(button).toBeTruthy()
-    // expect(getByText(/My Button/)).toBeInTheDocument();
   });
 
   test("Should call onClick successfully", () => {

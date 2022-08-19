@@ -1,4 +1,4 @@
-describe("Button", () => {
+describe("Card", () => {
   beforeEach(() => {
     cy.visit("http://localhost:6006/iframe.html?args=&id=card--all-sizes&viewMode=story");
   });
