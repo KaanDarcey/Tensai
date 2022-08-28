@@ -15,6 +15,7 @@ const colorBasedOnValue = (val) => {
 
 export const Container = styled.div`
   align-items: center;
+  background-color: ${styles.colors.colorWhite};
   border: 1px solid ${styles.colorBlack};
   border-radius: ${styles.borderRadius};
   box-sizing: border-box;

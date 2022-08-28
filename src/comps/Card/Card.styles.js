@@ -24,6 +24,7 @@ const sizeStyles = {
 
 export const Card = styled.div(
   ({size}) => css`
+    background-color: ${styles.colors.colorWhite};
     border: 1px solid ${styles.colorBlack};
     border-radius: ${styles.borderRadius};
     box-sizing: border-box;
