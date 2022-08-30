@@ -1,13 +1,16 @@
-import {Routes} from "react-router-dom";
+// import {Routes} from "react-router-dom";
 import "./styles/app.scss";
 
 function App() {
   return (
     <div className="App">
-      <Routes>
-        {/* <Route path="/" element={<Home />} /> */}
-        {/* <Route path="about" element={<About />} /> */}
-      </Routes>
+      {/* <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="profile" element={<Profile />} />
+        </Routes>
+      </Router> */}
     </div>
   );
 }
