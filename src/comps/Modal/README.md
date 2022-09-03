@@ -24,4 +24,28 @@ The Modal component displays a container over top of the screen.
 
 Example:
 
-`<Modal kana="てんさい" kanji="天才" translation="genius" />`
+```
+<Button onClick={() => setIsVisible(true)}>
+  Display Modal
+</Button>
+
+<Modal title="Add Card" color="green" isVisible={isVisible}>
+    <p>
+        Which deck would you like to add this card to?
+    </p>
+    <Dropdown
+        label="Dropdown"
+        items={[
+            {name: "Basic Vocabulary", value: "basicVocabulary"},
+            {name: "Grammar", value: "grammar"},
+            {name: "Tech Words", value: "techWords"},
+        ]}
+    />
+    <Button
+    onClick={() => setIsVisible(false)}
+    kind="close"
+    label="Close"
+    />
+    <Button kind="success" label="Save" />
+</Modal>
+```
