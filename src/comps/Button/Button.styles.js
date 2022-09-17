@@ -180,8 +180,7 @@ export const Button = styled.button(
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: "VT323", monospace;
-    padding: ${styles.padding};
+    padding: ${styles.padding} 1rem;
     position: relative;
     text-align: center;
     ${sizeStyles[size]};

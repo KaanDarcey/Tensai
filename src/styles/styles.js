@@ -1,6 +1,6 @@
 const styles = {
   font: {
-    fontFamily: `'VT323', monospace`,
+    fontFamily: `'Inter', monospace`,
     fontSizeDefault: `1rem`,
     fontSizeHeader0: `4rem`,
     fontSizeHeader1: `2.5rem`,

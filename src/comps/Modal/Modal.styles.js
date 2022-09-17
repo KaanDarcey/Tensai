@@ -65,7 +65,6 @@ export const Modal = styled.div(
     background-color: #edece8;
     border: 1px solid ${styles.colorBlack};
     box-sizing: border-box;
-    font-family: "VT323", monospace;
     height: auto;
     position: absolute;
     width: 17rem;

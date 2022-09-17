@@ -69,7 +69,6 @@ export const Flashcard = styled.div`
   box-shadow: 3px 3px ${styles.colors.colorBlack};
   box-sizing: border-box;
   cursor: pointer;
-  font-family: "VT323", monospace;
   height: 12rem;
   max-width: 14rem;
   overflow: hidden;

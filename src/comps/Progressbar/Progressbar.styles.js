@@ -22,7 +22,6 @@ export const Container = styled.div`
   box-shadow: 3px 3px ${styles.colors.colorBlack};
   display: flex;
   flex-direction: row;
-  font-family: "VT323", monospace;
   height: 2rem;
   justify-content: space-between;
   position: relative;

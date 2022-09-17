@@ -1,17 +1,15 @@
-// import {Routes} from "react-router-dom";
+import Navigation from "./comps/Navigation";
 import "./styles/app.scss";
+import Study from "./pages/Study/Study";
 
 function App() {
   return (
-    <div className="App">
-      {/* <Router>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="profile" element={<Profile />} />
-        </Routes>
-      </Router> */}
-    </div>
+    <>
+      <Navigation style={{position: "absolute", bottom: "0"}} />
+      <div className="App">
+        <Study />
+      </div>
+    </>
   );
 }
 

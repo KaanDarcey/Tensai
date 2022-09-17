@@ -41,7 +41,6 @@ export const DropdownHeader = styled.button(
     border-radius: ${styles.borderRadius};
     box-sizing: border-box;
     box-shadow: 3px 3px ${styles.colors.colorBlack};
-    font-family: "VT323", monospace;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -71,7 +70,6 @@ export const DropdownList = styled.div(
     box-shadow: 3px 3px ${styles.colors.colorBlack};
     top: 100%;
     left: 0;
-    font-family: "VT323", monospace;
     margin: 0;
     overflow: hidden;
     padding: 0;
@@ -88,7 +86,6 @@ export const DropdownListItem = styled.button`
   border: none;
   border-bottom: 1px solid ${styles.colorBlack};
   box-sizing: border-box;
-  font-family: "VT323", monospace;
   overflow: hidden;
   text-align: left;
   width: 100%;
