@@ -9,23 +9,19 @@ export interface NavigationProps {
 }
 
 const Navigation = ({initialRoute, items, ...moreProps}: NavigationProps) => {
-  const [current, setCurrent] = React.useState(initialRoute);
-
+  const path = window.location.pathname;
   return (
-    <nav>
-      <sc.Navigation {...moreProps}>
+    <sc.Nav {...moreProps}>
+      <sc.Navigation>
         {items.map((item: any) => {
           return (
             <sc.Item
               data-cy={item.label}
               color={item.color}
               count={items.length}
-              isActive={current === item.route}
+              isActive={item.route === path}
               key={item.label}
-              onClick={() => {
-                setCurrent(item.route);
-                item.navigate();
-              }}
+              onClick={() => item.navigate()}
             >
               <FontAwesomeIcon icon={item.icon} />
               <sc.Label>{item.label}</sc.Label>
@@ -33,7 +29,7 @@ const Navigation = ({initialRoute, items, ...moreProps}: NavigationProps) => {
           );
         })}
       </sc.Navigation>
-    </nav>
+    </sc.Nav>
   );
 };
 

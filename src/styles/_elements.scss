@@ -1,8 +1,12 @@
 @import './variables';
 
 html {
+    margin:0;
+    padding: 0;
+
     body {
         font-family: $font-family;
-        color: $color-black
+        margin:0;
+        padding: 0;
     }
 }

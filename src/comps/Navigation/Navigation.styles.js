@@ -13,6 +13,11 @@ const colorStyles = {
   `,
 };
 
+export const Nav = styled.nav`
+  width: 100%;
+  z-index: 99;
+`;
+
 export const Label = styled.p`
   margin: 0;
   padding-top: 0.5rem;
@@ -39,17 +44,6 @@ export const Item = styled.li(
       border-right: none;
     }
 
-    ${isActive
-      ? `&::after {
-        content: "";
-        position: absolute;
-        top: 0px;
-        border-width: 10px;
-        border-style: solid;
-        border-color: transparent transparent black transparent;
-    }`
-      : ""}
-
     ${colorStyles[color]};
   `
 );
@@ -61,9 +55,9 @@ export const Navigation = styled.ul`
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
-  font-family: "VT323", monospace;
   height: 4rem;
   margin: 0;
   padding: 0;
   overflow: hidden;
+  width: 100%;
 `;

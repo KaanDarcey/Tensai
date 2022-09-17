@@ -65,7 +65,6 @@ export const Input = styled.input(
     border: 1px solid ${styles.colorBlack};
     border-radius: ${styles.borderRadius};
     box-sizing: border-box;
-    font-family: "VT323", monospace;
     left: 0;
     margin: 0;
     padding: ${styles.padding};

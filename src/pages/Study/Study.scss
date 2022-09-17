@@ -1,0 +1,39 @@
+@import "../../styles/variables";
+
+h1 {
+    color: $color-background;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    text-align: center;
+    text-shadow: 6px 1px 1px $color-black, -1px 1px 1px $color-black, -1px -1px 1px $color-black,  1px -1px 1px $color-black;
+}
+
+.card-title {
+    font-weight: normal;
+    margin: 0;
+}
+
+.card-text {
+    font-weight: noraml;
+    margin: 0;
+    margin-top: 0.5rem;
+}
+
+.chevron-icon {
+    height: 1.2rem;
+}
+
+.decks-title {
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.new-set {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
