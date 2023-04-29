@@ -2,8 +2,10 @@
 
 h1 {
     color: $color-background;
-    font-size: 3rem;
+    font-size: 4rem;
     letter-spacing: 2px;
+    margin: 0;
+    margin-bottom: 1rem;
     text-align: center;
     text-shadow: 6px 1px 1px $color-black, -1px 1px 1px $color-black, -1px -1px 1px $color-black,  1px -1px 1px $color-black;
 }

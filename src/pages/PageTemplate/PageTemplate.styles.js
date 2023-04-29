@@ -9,7 +9,7 @@ export const PageTemplate = styled.div`
   height: 100%;
   margin: 0;
   overflow-y: scroll;
-  padding: 1rem;
+  padding: 2rem 1rem;
   padding-bottom: 5rem;
   width: 100%;
 `;

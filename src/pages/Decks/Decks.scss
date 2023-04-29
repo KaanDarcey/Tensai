@@ -1,0 +1,55 @@
+@import "../../styles/variables";
+@import "../../styles/mixins";
+
+h1 {
+    color: $color-background;
+    font-size: 4rem;
+    letter-spacing: 2px;
+    margin: 0;
+    margin-bottom: 1rem;
+    text-align: center;
+    text-shadow: 6px 1px 1px $color-black, -1px 1px 1px $color-black, -1px -1px 1px $color-black,  1px -1px 1px $color-black;
+}
+
+h2 {
+    margin: 0;
+    margin-top: 1rem;
+}
+
+.decks-description {
+   margin: 0;
+   margin-bottom: 1rem;
+}
+
+.align-row {
+    @include flex-row-start
+}
+
+.margin-right {
+    margin-right: 0.5rem;
+}
+
+.margin-left {
+    margin-left: 1rem;
+}
+
+.search-bar {
+    margin-top: 1rem;
+}
+
+.deck-container {
+    margin-top: 1rem;
+}
+
+.deck-card {
+    margin-bottom: 1rem;
+}
+
+.deck-card h3 {
+    margin: 0;
+}
+
+.deck-card-heading {
+    @include flex-row-between;
+    margin-bottom: 0.5rem;
+}
